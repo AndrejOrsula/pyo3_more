@@ -1,7 +1,6 @@
 # pyo3_more
 
 <p align="left">
-  <a href="https://crates.io/crates/pyo3_more">                                   <img alt="crates.io" src="https://img.shields.io/crates/v/pyo3_more.svg"></a>
   <a href="https://github.com/AndrejOrsula/pyo3_more/actions/workflows/rust.yml"> <img alt="Rust"      src="https://github.com/AndrejOrsula/pyo3_more/actions/workflows/rust.yml/badge.svg"></a>
   <a href="https://codecov.io/gh/AndrejOrsula/pyo3_more">                         <img alt="codecov"   src="https://codecov.io/gh/AndrejOrsula/pyo3_more/branch/main/graph/badge.svg"></a>
 </p>
