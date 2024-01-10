@@ -1,0 +1,24 @@
+[workspace]
+members = [
+    # More procedural macros for PyO3
+    "pyo3_derive_more",
+    # More declarative macros for PyO3
+    "pyo3_macros_more",
+]
+resolver = "2"
+
+[workspace.package]
+authors = ["Andrej Orsula <orsula.andrej@gmail.com>"]
+categories = ["development-tools::ffi"]
+edition = "2021"
+keywords = ["ffi", "pyo3", "python"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/AndrejOrsula/pyo3_more"
+rust-version = "1.64"
+version = "0.1.0"
+
+[workspace.dependencies]
+proc-macro2 = { version = "1" }
+quote = { version = "1" }
+syn = { version = "2" }

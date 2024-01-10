@@ -1,0 +1,17 @@
+[package]
+name = "pyo3_macros_more"
+authors.workspace = true
+categories.workspace = true
+description = "More declarative macros for PyO3"
+edition.workspace = true
+keywords.workspace = true
+license.workspace = true
+readme.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+version.workspace = true
+
+[lib]
+name = "pyo3_macros_more"
+path = "src/lib.rs"
+crate-type = ["rlib"]

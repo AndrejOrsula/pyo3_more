@@ -1,0 +1,20 @@
+[package]
+name = "pyo3_derive_more"
+authors.workspace = true
+categories.workspace = true
+description = "More procedural macros for PyO3"
+edition.workspace = true
+keywords.workspace = true
+license.workspace = true
+readme.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+version.workspace = true
+
+[dependencies]
+proc-macro2 = { workspace = true }
+quote = { workspace = true }
+syn = { workspace = true }
+
+[lib]
+proc-macro = true
