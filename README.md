@@ -1,8 +1,9 @@
 # pyo3_more
 
 <p align="left">
-  <a href="https://github.com/AndrejOrsula/pyo3_more/actions/workflows/rust.yml"> <img alt="Rust"      src="https://github.com/AndrejOrsula/pyo3_more/actions/workflows/rust.yml/badge.svg"></a>
-  <a href="https://codecov.io/gh/AndrejOrsula/pyo3_more">                         <img alt="codecov"   src="https://codecov.io/gh/AndrejOrsula/pyo3_more/branch/main/graph/badge.svg"></a>
+  <a href="https://github.com/AndrejOrsula/pyo3_more/actions/workflows/rust.yml">   <img alt="Rust"       src="https://github.com/AndrejOrsula/pyo3_more/actions/workflows/rust.yml/badge.svg"></a>
+  <a href="https://deps.rs/repo/github/AndrejOrsula/pyo3_more">                     <img alt="deps.rs"    src="https://deps.rs/repo/github/AndrejOrsula/pyo3_more/status.svg"></a>
+  <a href="https://codecov.io/gh/AndrejOrsula/pyo3_more">                           <img alt="codecov.io" src="https://codecov.io/gh/AndrejOrsula/pyo3_more/branch/main/graph/badge.svg"></a>
 </p>
 
 More macros for [PyO3](https://pyo3.rs).
@@ -11,8 +12,13 @@ More macros for [PyO3](https://pyo3.rs).
 
 The workspace contains these packages:
 
-- **[pyo3_derive_more](pyo3_derive_more):** More procedural macros for PyO3
-- **[pyo3_macros_more](pyo3_macros_more):** More declarative macros for PyO3
+- **[pyo3_derive_more](pyo3_derive_more):** More procedural macros for PyO3 <p align="left">
+  <a href="https://crates.io/crates/pyo3_derive_more">                                     <img alt="crates.io"  src="https://img.shields.io/crates/v/pyo3_derive_more.svg"></a>
+  <a href="https://docs.rs/pyo3_derive_more">                                              <img alt="docs.rs"    src="https://docs.rs/pyo3_derive_more/badge.svg"></a></p>
+
+- **[pyo3_macros_more](pyo3_macros_more):** More declarative macros for PyO3 <p align="left">
+  <a href="https://crates.io/crates/pyo3_macros_more">                                     <img alt="crates.io"  src="https://img.shields.io/crates/v/pyo3_macros_more.svg"></a>
+  <a href="https://docs.rs/pyo3_macros_more">                                              <img alt="docs.rs"    src="https://docs.rs/pyo3_macros_more/badge.svg"></a></p>
 
 ## Instructions
 
