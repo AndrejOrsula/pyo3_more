@@ -1,6 +1,6 @@
 use syn::{Data, DataStruct, DeriveInput, Fields};
 
-pub fn into_pydict_impl(input: DeriveInput) -> proc_macro::TokenStream {
+pub fn impl_into_pydict(input: DeriveInput) -> proc_macro::TokenStream {
     // The name of the struct for which `IntoPyDict` is being derived
     let struct_ident = input.ident;
 
