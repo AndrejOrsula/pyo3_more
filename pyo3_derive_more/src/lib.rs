@@ -7,5 +7,5 @@ mod dict;
 /// implementations for a struct with named fields.
 #[proc_macro_derive(IntoPyDict)]
 pub fn derive_into_pydict(input: TokenStream) -> TokenStream {
-    dict::into_pydict_impl(syn::parse_macro_input!(input))
+    dict::impl_into_pydict(syn::parse_macro_input!(input))
 }
